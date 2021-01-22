@@ -9,11 +9,10 @@ import com.androidutil.R;
 import com.androidutil.activity.base.BaseActivity;
 import com.androidutil.view.fragment.home.HomeFragment;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-public class MainActivity extends BaseActivity implements View.OnClickListener {
+public class HomeActivity extends BaseActivity implements View.OnClickListener {
 
 
     private HomeFragment mHomeFragment;
@@ -31,7 +30,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_layout);
         mHomeFragment = new HomeFragment();
         fm = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
@@ -58,6 +57,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-
+        switch (v.getId()) {
+            case R.id.home_layout_view:
+                break;
+            case R.id.message_layout_view:
+                break;
+            case R.id.mine_layout_view:
+                break;
+        }
     }
 }

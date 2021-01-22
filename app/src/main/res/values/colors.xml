@@ -1,5 +1,7 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <color name="common_color_4b7eff">#FF4b7eff</color>
+
     <color name="white">#ffffff</color>
     <color name="color_333333">#333333</color>
     <color name="color_cccccc">#cccccc</color>
