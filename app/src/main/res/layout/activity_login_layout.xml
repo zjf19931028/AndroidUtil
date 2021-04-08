@@ -31,7 +31,7 @@
                 android:paddingLeft="25dp"
                 android:paddingRight="25dp">
 
-                <com.awesomevideo.view.associatemail.MailBoxAssociateView
+                <com.awesome.video.view.associatemail.MailBoxAssociateView
                     android:id="@+id/associate_email_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
